@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* body css */
+body{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.mainBox {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+ 	}
+
+
+.contentBox{
+	 text-align: center; 
+		display: inline-block;
+		width: 978px; 
+		background-color: #fff;
+		margin-top: 50px;
+}
+
+.aside_menu{
+	 text-align: center; 
+}
+
+
+
+/* table CSS */
+
+table.table {
+  width:800px;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  font-size:14px;
+  /* border: 1px solid #ccc; */
+  border-top: 1px solid #ccc;
+}
+table.table th {
+  padding: 10px;
+  font-weight: bold; 
+  text-align:center;
+  vertical-align: top;
+ /* border: 1px solid #ccc;*/
+  background: #fbedaa;
+  border-bottom: 1px solid #ccc;
+}
+table.table td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+} 
+
+
+
+/* 확인 버튼 CSS */
+.btnChk {
+	margin: 9px;
+	width:60px;
+}
+
+.btnChk {
+  /*padding: 4px 4px;  */
+  font-size: 12px;
+  background-color: #ccc;
+ /* width: 150px;
+  height: 10 px;*/
+}
+
+.btnChk:hover {
+  background-color: #ace2f9;
+}
+
+.btnChk {
+	color: white;	
+	padding: 5px 5px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom-color: rgba(0,0,0,0.34);
+	text-shadow:0 1px 0 rgba(0,0,0,0.15);
+	/*box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 
+				      0 2px 0 -1px rgba(0,0,0,0.13), 
+				      0 3px 0 -1px rgba(0,0,0,0.08), 
+				      0 3px 3px -1px rgba(0,0,0,0.21);*/
+}
+.btnChk:active {
+	top: 1px;
+	border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+	/*box-shadow: 0 5px 0 rgba(255,255,255,0.89),0 5px rgba(0,0,0,0.05) inset;*/
+	position: relative;
+}
+
+
+a[href] {
+	color:black;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #90c6dc;
+  text-decoration: underline;
+}

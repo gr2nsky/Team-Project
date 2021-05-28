@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+/* body css */
+body{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.mainBox {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+ 	}
+
+
+.contentBox{
+	text-align: center;
+		display: inline-block;
+		width: 978px; 
+		background-color: #fff;
+		margin-top: 50px;
+}
+
+.aside_menu{
+	 text-align: center; 
+}
+
+h2{
+	text-align: left; 
+}
+
+
+textarea {
+	border: 0px;
+}
+
+
+/* table CSS */
+
+table.table {
+  width:800px;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  font-size:14px;
+  /* border: 1px solid #ccc; */
+  border-top: 1px solid #ccc;
+}
+table.table th {
+  padding: 10px;
+  font-weight: bold; 
+  text-align:center;
+  vertical-align: top;
+ /* border: 1px solid #ccc;*/
+  background: #fbedaa;
+  border-bottom: 1px solid #ccc;
+}
+table.table td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+} 
+
+/* 글작성 테이블 CSS */
+table.table2 {
+  width:800px;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  font-size:14px;
+  /* border: 1px solid #ccc; */
+}
+
+
+
+
+
+textarea{
+	width:500px; 
+	height:100px; 
+    resize:none;/* 크기고정 */ 
+/*   resize: horizontal; // 가로크기만 조절가능 
+	resize: vertical;  세로크기만 조절가능  */
+}
+
+
+
+
+
+
+/* 확인 버튼 CSS */
+.btnChk {
+	margin: 9px;
+	width:60px;
+}
+
+.btnChk {
+  /*padding: 4px 4px;  */
+  font-size: 12px;
+  background-color: #ccc;
+ /* width: 150px;
+  height: 10 px;*/
+}
+
+.btnChk:hover {
+  background-color: #ace2f9;
+}
+
+.btnChk {
+	color: white;	
+	padding: 5px 5px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom-color: rgba(0,0,0,0.34);
+	text-shadow:0 1px 0 rgba(0,0,0,0.15);
+	/*box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 
+				      0 2px 0 -1px rgba(0,0,0,0.13), 
+				      0 3px 0 -1px rgba(0,0,0,0.08), 
+				      0 3px 3px -1px rgba(0,0,0,0.21);*/
+}
+.btnChk:active {
+	top: 1px;
+	border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+	/*box-shadow: 0 5px 0 rgba(255,255,255,0.89),0 5px rgba(0,0,0,0.05) inset;*/
+	position: relative;
+}
+
+
+
+
+/* 글작성 버튼 CSS */ 
+.btnWrite {
+	margin: 9px;
+}
+
+.btnWrite {
+  padding: 4px 4px;  
+  font-size: 11px;
+  background-color: #ace2f9;
+  width: 90px;
+  height: 10 px;
+  
+}
+
+.btnWrite {
+	color: white;	
+	padding: 5px 15px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom-color: rgba(0,0,0,0.34);
+	text-shadow:0 1px 0 rgba(0,0,0,0.15);
+	/*box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 
+				      0 2px 0 -1px rgba(0,0,0,0.13), 
+				      0 3px 0 -1px rgba(0,0,0,0.08), 
+				      0 3px 3px -1px rgba(0,0,0,0.21);*/
+}
+.btnWrite:active {
+	top: 1px;
+	border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+	box-shadow: 0 5px 0 rgba(255,255,255,0.89),0 5px rgba(0,0,0,0.05) inset;
+	position: relative;
+}
+
+
+/* 목록으로 버튼 CSS */ 
+.btnGoList {
+	/*margin: 9px; */
+	/*margin-right:700  px;*/
+	margin-left:700  px;
+}
+
+.btnGoList {
+  padding: 4px 4px;  
+  font-size: 11px;
+  background-color: #ace2f9;
+  width: 90px;
+  height: 10 px;  
+  border-radius: 30px;
+}
+
+.btnGoList {
+	color: white;	
+	padding: 5px 15px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom-color: rgba(0,0,0,0.34);
+	text-shadow:0 1px 0 rgba(0,0,0,0.15);
+	/*box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 
+				      0 2px 0 -1px rgba(0,0,0,0.13), 
+				      0 3px 0 -1px rgba(0,0,0,0.08), 
+				      0 3px 3px -1px rgba(0,0,0,0.21);*/
+}
+.btnGoList:active {
+	top: 1px;
+	border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+	box-shadow: 0 5px 0 rgba(255,255,255,0.89),0 5px rgba(0,0,0,0.05) inset;
+	position: relative;
+}
+
+/* 글수정&삭제 버튼 CSS */ 
+.btnModDel {
+	margin: 9px;
+}
+
+.btnModDel {
+  padding: 4px 4px;  
+  font-size: 11px;
+  background-color: #d3d3d3;
+  width: 40px;
+  height: 10 px;  
+  border-radius: 30px;
+}
+
+.btnModDel {
+	color: white;	
+	padding: 5px 5px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom-color: rgba(0,0,0,0.34);
+	text-shadow:0 1px 0 rgba(0,0,0,0.15);
+	/*box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 
+				      0 2px 0 -1px rgba(0,0,0,0.13), 
+				      0 3px 0 -1px rgba(0,0,0,0.08), 
+				      0 3px 3px -1px rgba(0,0,0,0.21);*/
+}
+.btnModDel:active {
+	top: 1px;
+	border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+	box-shadow: 0 5px 0 rgba(255,255,255,0.89),0 5px rgba(0,0,0,0.05) inset;
+	position: relative;
+}
+
+.btnModDel:hover {
+	background-color: #ace2f9; 
+}
+
+
+
+/* 하이퍼링크 CSS */
+
+a[href] {
+	color:black;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #90c6dc;
+  text-decoration: underline;
+}

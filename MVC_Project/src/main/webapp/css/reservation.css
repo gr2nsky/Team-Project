@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*폰트  */
+*{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* mainBox  */
+.mainBox { 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contentBox{
+	text-align: center;
+	display: inline-block;
+	width: 978px; 
+	background-color: #fff;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.contentBox2{
+	text-align: center;
+	display: inline-block;
+	width: 978px; 
+	background-color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.textLeft{
+	text-align: left;
+	background-color: #fff;
+	margin:50px;
+}
+.underline{
+	background-color: #ace2f9;
+	width:110px;
+	height:5px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* 공간 사진  */
+.share {
+ 	width: 490px;
+	height: 280px;
+ 	overflow: hidden;
+ 	border:1px solid #dcdcdc;
+} 
+ .sharePhoto {
+ 	width: 490px;
+ 	height: 280px;
+ 	object-fit: cover;
+}
+/*btn  */
+.btnTime{
+	margin: 0;
+	padding: 10px;
+	font-size: 15px;
+	
+	text-align: center;
+	text-decoration: none;
+	background-color: #fff;
+	
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	
+	display: inline-block;
+	width: 100px;
+}
+.btnTime:hover{
+	margin: 0;
+	padding: 10px;
+	font-size: 15px;
+	
+	text-align: center;
+	text-decoration: none;
+	background-color: #f0f0f0;
+	
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	
+	display: inline-block;
+	width: 100px;
+}
+
+
+/*input type  */
+input[type="text"]{
+	width: 400px;
+	height: 25px;
+	padding: 7px;
+	
+	font-size:18px;
+	background-color: #fff;
+	
+	border: 1px solid #dcdcdc;
+}

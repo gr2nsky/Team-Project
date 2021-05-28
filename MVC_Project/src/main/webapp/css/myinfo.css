@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* mainBox  */
+.mainBox { 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contentBox{
+	text-align: center;
+	display: inline-block;
+	width: 978px; 
+	background-color: #fff;
+	margin-top: 30px;
+}
+.title{
+	font-size:55px;
+	margin-bottom:10px;
+}
+
+.titleBottom{
+	background-color: #ace2f9;
+	width:70px;
+	height:5px;
+	margin-bottom:40px;
+}
+
+.shareIntroduce{
+	font-size:30px;
+	margin-bottom:15px;
+	margin-top:70px;
+}
+
+.underline{
+	background-color: #ace2f9;
+	width:30px;
+	height:5px;
+	margin-bottom:20px;
+}
+
+.textLeft{
+	text-align: left;
+	background-color: #fff;
+	margin-left:30px;
+}
+
+
+
+.user {
+   width: 150px;
+   height: 150px; 
+   border-radius: 70%;
+   overflow: hidden;
+}
+.userProfile {
+   width: 160px;
+/*     height: 100%; */
+   object-fit: cover;
+}
+ .review {
+ 	width:420px;
+	height:240px;
+ 	overflow: hidden;
+}
+ .reviewPhoto {
+ 	width: 420px;
+	height: 240px;
+	object-fit: cover;
+} 
+ .reviewScore {
+ 	width: 20px;
+	height: 14px;
+} 
+ .share {
+ 	width: 700px;
+	height: 400px;
+ 	overflow: hidden;
+ 	border:1px solid #f0f0f0;
+} 
+ .sharePhoto {
+ 	width: 700px;
+ 	height: 400px;
+ 	object-fit: cover;
+
+} 

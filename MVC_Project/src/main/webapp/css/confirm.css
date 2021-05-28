@@ -1,0 +1,102 @@
+@charset "EUC-KR";
+
+/* body CSS */
+body{
+	font-family: 'Nanum Gothic', sans-serif;
+	
+}
+
+.mainBox {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+ 	}
+
+
+.contentBox{
+	 text-align: center; 
+		display: inline-block;
+		width: 978px; 
+		background-color: #fff;
+}
+
+/* textfield CSS*/
+input[type=text]:focus {
+  background-color: #ace2f9;
+}
+
+/* btnOK CSS */
+.btnOK {
+	margin: 9px;
+}
+
+.btnOK {
+  padding: 4px 4px;  
+  font-size: 11px;
+  background-color: #ace2f9;
+  width: 90px;
+  height: 10 px;
+}
+
+.btnOK {
+	color: white;	
+	padding: 5px 15px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom-color: rgba(0,0,0,0.34);
+	text-shadow:0 1px 0 rgba(0,0,0,0.15);
+	/*box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 
+				      0 2px 0 -1px rgba(0,0,0,0.13), 
+				      0 3px 0 -1px rgba(0,0,0,0.08), 
+				      0 3px 3px -1px rgba(0,0,0,0.21);*/
+}
+.btnOK:active {
+	top: 1px;
+	border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+	box-shadow: 0 5px 0 rgba(255,255,255,0.89),0 5px rgba(0,0,0,0.05) inset;
+	position: relative;
+}
+
+
+/* btnCancel CSS */
+.btnCancel {
+	margin: 9px;
+}
+
+.btnCancel {
+  padding: 4px 4px;  
+  font-size: 11px;
+  background-color: #d3d3d3;
+  width: 90px;
+  height: 10 px;
+}
+
+.btnCancel {
+	color: white;	
+	padding: 5px 15px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom-color: rgba(0,0,0,0.34);
+	text-shadow:0 1px 0 rgba(0,0,0,0.15);
+	/*box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 
+				      0 2px 0 -1px rgba(0,0,0,0.13), 
+				      0 3px 0 -1px rgba(0,0,0,0.08), 
+				      0 3px 3px -1px rgba(0,0,0,0.21);*/
+}
+.btnCancel:active {
+	top: 1px;
+	border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+	box-shadow: 0 5px 0 rgba(255,255,255,0.89),0 5px rgba(0,0,0,0.05) inset;
+	position: relative;
+}
+
+
+
+
+
+/* a CSS */
+.a {
+	color:black;
+	font-size: 8px;
+}
+

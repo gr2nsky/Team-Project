@@ -1,0 +1,141 @@
+@charset "UTF-8";
+body{
+	padding: 10px;
+}
+/* mainBox  */
+.mainBox { 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contentBox{
+	text-align: center;
+	display: inline-block;
+	width: 978px; 
+/* 	height:2000px; */
+	background-color: #fff;
+	margin-top: 50px;
+}
+/* 사이드 바 */
+#floatMenu {
+	position: absolute;
+	text-align: right;
+	margin-right:180px;
+	width: 80px;
+	height: 80px;
+	right:50px;
+	top:80%;
+	color: #fff;
+	z-index: 3;
+}
+/* button CSS */
+.button{
+  background:#ace2f9;
+  color:#fff;
+  border: 2px #ace2f9;
+  position:relative;
+  width:250px;
+  height:40px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.button:hover{
+  background:#fff;
+  color:#ace2f9;
+  border: 2px #ace2f9;
+}
+.button:before, .button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #ace2f9;
+  transition:400ms ease all;
+}
+.button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button:hover:before, .button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+.button:active{
+	background: #a6cfff;
+}
+.title{
+	font-size:55px;
+	margin-bottom:10px;
+}
+.titleBottom{
+	background-color: #ace2f9;
+	width:70px;
+	height:5px;
+	margin-bottom:40px;
+}
+.shareIntroduce{
+	font-size:30px;
+	margin-bottom:15px;
+	margin-top:70px;
+}
+.underline{
+	background-color: #ace2f9;
+	width:30px;
+	height:5px;
+	margin-bottom:20px;
+}
+.map{
+	text-align: center;
+	display: inline-block;
+	width: 978px; 
+	background-color: #fff;
+	margin-top: 50px;
+	border:1px solid #f0f0f0;
+}
+.textLeft{
+	text-align: left;
+	background-color: #fff;
+}
+.user {
+   width: 150px;
+   height: 150px; 
+   border-radius: 70%;
+   overflow: hidden;
+}
+.userProfile {
+   width: 160px;
+/*     height: 100%; */
+   object-fit: cover;
+}
+ .review {
+ 	width:420px;
+	height:240px;
+ 	overflow: hidden;
+}
+ .reviewPhoto {
+ 	width: 420px;
+	height: 240px;
+	object-fit: cover;
+} 
+ .reviewScore {
+ 	width: 20px;
+	height: 14px;
+} 
+ .share {
+ 	width: 700px;
+	height: 400px;
+ 	overflow: hidden;
+ 	border:1px solid #f0f0f0;
+} 
+ .sharePhoto {
+ 	width: 700px;
+ 	height: 400px;
+ 	object-fit: cover;
+} 

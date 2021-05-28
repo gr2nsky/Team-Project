@@ -1,0 +1,93 @@
+@charset "EUC-KR";
+
+
+/* body css */
+body{
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.mainBox {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+ 	}
+
+
+.contentBox{
+	text-align: center;
+		display: inline-block;
+		width: 978px; 
+		background-color: #fff;
+		margin-top: 50px;
+}
+
+/* textfield CSS*/
+
+
+input[type=text]:focus {
+  background-color: #ace2f9;
+}
+
+input[type=password]:focus {
+  background-color: #ace2f9;
+}
+
+/* button CSS */
+.button{
+  background:#ace2f9;
+  color:#fff;
+  border: 2px #ace2f9;
+  position:relative;
+  width:250px;
+  height:40px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.button:hover{
+  background:#fff;
+  color:#ace2f9;
+  border: 2px #ace2f9;
+}
+.button:before, .button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #ace2f9;
+  transition:400ms ease all;
+}
+.button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button:hover:before, .button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.button:active{
+	background: #a6cfff;
+}
+
+/* link sign up , ID & PW CSS */
+a[href] {
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #90c6dc;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+}
